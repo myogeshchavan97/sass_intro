@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile": "node-sass css/main.scss css/main.css --watch",
+    "compile": "sass css/main.scss css/main.css --watch",
     "start": "live-server"
   },
   "keywords": [],
@@ -12,6 +12,6 @@
   "license": "ISC",
   "dependencies": {
     "live-server": "^1.2.1",
-    "node-sass": "^4.13.1"
+    "sass": "^1.80.6"
   }
 }
